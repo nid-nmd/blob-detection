@@ -1,0 +1,28 @@
+[
+{
+    "service": "Blob Detection",
+    "route": "/detect/blob",
+    "type": "command",
+    "request": {
+        "params": {
+            "file": {
+                "type": "file"
+            }
+        }
+    },
+    "response": {
+        "params": {
+            "detected": {
+                "type": "boolean"
+            },
+            "x": {
+                "type": "int"
+            },
+            "y": {
+                "type": "int"
+            }
+        }
+    },
+    "command" : "/home/nmd/nmd-projects/blob_detection/build/TrackBlob -image={file}"
+}
+]

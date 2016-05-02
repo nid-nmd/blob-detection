@@ -1,0 +1,3 @@
+/home/nmd/nmd-projects/blob_detection/build/CMakeFiles/edit_cache.dir
+/home/nmd/nmd-projects/blob_detection/build/CMakeFiles/rebuild_cache.dir
+/home/nmd/nmd-projects/blob_detection/build/CMakeFiles/TrackBlob.dir
